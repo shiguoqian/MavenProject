@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.sgq.dao.IBookDao">
+    <select id="getBooks" resultType="book">
+        select * from book order by id
+    </select>
+    <insert id="addBook" parameterType="book">
+        insert into book(name,author,publish,publishdate,page,price,content) values(#{name},#{author},#{publish},#{publishdate},#{page},#{price},#{content});
+    </insert>
+    <update id="modifyBook" parameterType="book">
+        update book set name = #{name},author = #{author},publish = #{publish},publishdate = #{publishdate},page = #{page},price = #{price},content = #{content} where id = #{id}
+    </update>
+    <delete id="deleteBook" parameterType="int">
+        delete from book where id = #{id}
+    </delete>
+</mapper>

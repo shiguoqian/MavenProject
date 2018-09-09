@@ -1,0 +1,16 @@
+
+[
+squid:S1064"9Replace this use of System.out or System.err by a logger.(˜©ˆ¹ıÿÿÿÿ8çöÙ¤Ù,
+V
+squid:S1065"9Replace this use of System.out or System.err by a logger.(âû‹8àüæ¤Ù,
+jsquid:S1192#"LDefine a constant instead of duplicating this literal "manageBooks" 3 times.(Ê¨áÓ8Ïç¨¤Ù,
+csquid:S1854"@Remove this useless assignment to local variable "modelAndView".(à£¤Ûûÿÿÿÿ8õ¸Œ¡Ù,
+V
+squid:S106?"9Replace this use of System.out or System.err by a logger.(á¦Ğğ8Û¤Ù,
+jsquid:S1192,"GDefine a constant instead of duplicating this literal "prompt" 6 times.(ƒñÌúÿÿÿÿ8õÌ”¤Ù,
+Tsquid:S1481"1Remove this unused "modelAndView" local variable.(à£¤Ûûÿÿÿÿ8õ¸Œ¡Ù,
+€squid:UselessImportCheck"PRemove this unused import 'org.springframework.web.bind.annotation.RequestBody'.(â­½Àıÿÿÿÿ8ñ«¤£Ù,
+Fsquid:S1148<"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8õÌ”¤Ù,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Êéÿµ8ĞÏ¡Ù,
+Fsquid:S1148)"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ü…Ó£Ù,
